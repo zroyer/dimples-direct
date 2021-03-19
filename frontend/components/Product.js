@@ -5,7 +5,6 @@ import PriceTag from './styles/PriceTag';
 import formatMoney from '../lib/formatMoney.js';
 
 export default function Product({ product }) {
-  console.log(product);
   return (
     <ItemStyles>
       <img

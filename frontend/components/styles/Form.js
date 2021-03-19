@@ -59,9 +59,9 @@ const Form = styled.form`
       display: block;
       background-image: linear-gradient(
         to right,
-        #ff3019 0%,
+        var(--green) 0%,
         #e2b04a 50%,
-        #ff3019 100%
+        var(--green) 100%
       );
     }
     &[aria-busy='true']::before {
